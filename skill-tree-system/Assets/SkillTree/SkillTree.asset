@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3c264cf914dfc14ba6f380ef64371d3, type: 3}
+  m_Name: SkillTree
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 11400000, guid: c35f1d0f48ace3d4680cac9392fd9625, type: 2}
+  - {fileID: 11400000, guid: e56f295e053d9dd42a31771f69637694, type: 2}
+  - {fileID: 11400000, guid: b1b59f4122c0da048b82401da4174ff1, type: 2}
+  - {fileID: 11400000, guid: 9a3da20e09f9645418d32805e367ad31, type: 2}
