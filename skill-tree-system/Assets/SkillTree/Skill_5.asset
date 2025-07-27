@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab19b6d0106d36442992e2179d277ea5, type: 3}
   m_Name: Skill_5
   m_EditorClassIdentifier: 
-  nodeId: 
-  displayName: 
-  description: 
-  position: {x: 0, y: 0}
-  icon: {fileID: 0}
-  connectedNodes: []
+  nodeId: Skill_5
+  displayName: test skill 5
+  description: test
+  position: {x: 0, y: 3}
+  icon: {fileID: 21300000, guid: 34a420d7f09d77e468446e0cfc03724f, type: 3}
+  connectedNodes:
+  - {fileID: 11400000, guid: 9a3da20e09f9645418d32805e367ad31, type: 2}
   isUnlocked: 0

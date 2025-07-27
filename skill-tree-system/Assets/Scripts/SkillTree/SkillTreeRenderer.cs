@@ -9,6 +9,7 @@ public class SkillTreeRenderer : MonoBehaviour
     [SerializeField] private RectTransform content;
     [SerializeField] private GameObject linePrefab;   // UILineRendererがアタッチされたPrefab
     [SerializeField] private GameObject skillNodePrefab;
+    [SerializeField] private RectTransform background;
 
     private RectTransform lineContainer;
 
@@ -50,6 +51,7 @@ public class SkillTreeRenderer : MonoBehaviour
         lineContainer.anchoredPosition = Vector2.zero;
 
         lineContainer.SetAsFirstSibling();
+        background.SetAsFirstSibling();
     }
 
     private void GenerateSkillNode()
